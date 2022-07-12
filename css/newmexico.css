@@ -1,0 +1,17 @@
+#new-mexico {
+    background-image: url('../images/newmexico.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+
+#new-mexico h1 {
+    position: absolute;
+    left: 1em;
+    bottom: 0.05em;
+    color: rgb(255, 253, 253);
+    font-size: 3.5em;
+    text-transform: uppercase;
+}

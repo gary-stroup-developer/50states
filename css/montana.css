@@ -1,0 +1,19 @@
+#montana {
+    background-image: url('../images/montana.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+
+#montana h1 {
+    position: absolute;
+    left: 1em;
+    bottom: 0.05em;
+    color: rgb(252, 252, 252);
+    background-color: rgba(0, 0, 0, 0.75);
+    font-size: 3.5em;
+    text-transform: uppercase;
+    width: 50%;
+}
