@@ -1,0 +1,17 @@
+#southdakota {
+    background-image: url('../images/south-dakota.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+
+#southdakota h1 {
+    position: absolute;
+    left: 1em;
+    bottom: 0.05em;
+    color: rgb(242, 239, 239);
+    font-size: 3.5em;
+    text-transform: uppercase;
+}
