@@ -1,0 +1,17 @@
+#newyork {
+    background-image: url('../images/newyork.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+
+#newyork h1 {
+    position: absolute;
+    left: 1em;
+    bottom: 0.05em;
+    color: rgb(240, 240, 240);
+    font-size: 3.5em;
+    text-transform: uppercase;
+}
