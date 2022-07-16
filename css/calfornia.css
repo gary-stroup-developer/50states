@@ -3,8 +3,11 @@
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
-    height: 600px;
+    width: 90vw;
+    height: 30vh;
     position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 #california h1 {

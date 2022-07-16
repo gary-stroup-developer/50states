@@ -2,11 +2,15 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 10px;
+    
 }
 
 svg {
-    margin-left: 10%;
-    padding: 4em 0.5em;
+    padding-top: 4em;
+    margin-right: 5%;
+    max-width: 1000px;
+    max-height:580px;
 }
 path {
     stroke: white;
@@ -17,37 +21,29 @@ path {
 path:hover {
     fill: orange !important;
 }
-#map-container {
-    height: 100vh;
-    margin-top: 4em;
-}
-
 
 #intro {
     background-image: url('../images/sanfrancisco.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100vw;
     height: 100vh;
-    position: relative;
     text-align: center;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
 }
 
 
 #intro-title {
     background-color: black;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
     opacity: 0.75;
     color: #cdcaca;
-    height: 100vh;
+    height: 100%;
     z-index: 4;
+    text-align: center;
 }
 
 #intro-title h1 {
-    font-size: 6rem;
+    font-size: 2.5rem;
     margin: auto;
     position: relative;
     top: 40%;
@@ -55,11 +51,36 @@ path:hover {
 }
 
 #instructions {
-    font-size: 2rem;
-    position: absolute;
-    bottom: 20px;
-    left: 32.5%;
+    font-size: 1.6rem;
+    position: relative;
+    max-width: 15rem;
+    margin: 0 auto;
 }
+
+.state-info-container {
+    width: 90vw;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.state-info-container > p:first-of-type {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 58rem;
+    font-size: 1rem;
+    line-height: 1.3;
+    letter-spacing: 0.75px;
+}
+/* 1000px 589px */
+
+#map-container {
+    padding-top: 6em;
+    height: 40rem;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
 
 #details-box {
     opacity: 0%;
@@ -76,9 +97,17 @@ path:hover {
     z-index: 1;
 }
 
+section > p {
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+
+.interesting-facts {
+    font-weight: 400;
+}
 footer {
     height: 80px;
-    width: 100%;
+    width: 100vw;
     text-align: center;
     padding-top: 0.5em;
     background-color: black;
@@ -89,7 +118,8 @@ footer {
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 80%;
+    width: 85vw;
+    max-width: 1000px;
 }
 
 td,
@@ -110,16 +140,34 @@ tr:nth-child(even) {
 }
 
 img {
-    width: 380px;
-    height:350px;
+    width: 225px;
+    height: 200px;
+    max-width: 380px;
+    max-height:350px;
     border-radius: 50%;
 }
 
 blockquote {
-    font-size: 2rem;
+    font-size: 1.4rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h3 {
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     font-weight: 500;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+    max-width: 70rem;
+}
+
+li {
+    line-height: 1.5;
+}
+
+li:not(:first-of-type) {
+    margin-top: 1.5rem;
 }
